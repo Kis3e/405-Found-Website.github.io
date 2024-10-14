@@ -1,20 +1,4 @@
-.container-body {
-  background-color: #d56600;
-  font-family: "Montserrat", sans-serif;
-}
-
-#logo1 {
-  margin-top: 50px;
-  margin-left: 100px;
-  width: 50%;
-}
-
-#lets-design {
-  font-size: 100px;
-  font-weight: bold;
-  margin-left: px;
-}
-
-#small-description {
-  font-size: 25px;
+.main-body {
+  background-color: #D56600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
