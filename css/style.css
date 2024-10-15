@@ -8,3 +8,19 @@ body {
   height: 80px;
   filter: brightness(0);
 }
+
+.card {
+  transition: all 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.icon {
+  transition: all 0.3s;
+}
+
+.icon:hover {
+  transform: scale(1.50);
+}
