@@ -1,0 +1,57 @@
+body {
+  font-family: "Poppins";
+  background-color: #ff8d15;
+}
+
+.navbar-toggler {
+  border-color: white; /* White border for toggle button */
+}
+
+body {
+  background-color: #f77e22;
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid black;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+  filter: brightness(0);
+}
+.btn-hire {
+  background-color: #fd6f00;
+  color: #fff;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+  border: 2px solid #000;
+}
+
+.btn-hire:hover {
+  background-color: #d9d9d980;
+  color: #000;
+  border: 2px solid #000;
+}
+
+#bg-all {
+  background-color: #d9d9d9b6;
+}
+
+.name {
+  color: #fd6f00;
+}
+
+.icon {
+  transition: all 0.3s;
+}
+
+.icon:hover {
+  transform: scale(1.5);
+}
