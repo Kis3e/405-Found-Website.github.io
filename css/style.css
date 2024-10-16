@@ -1,6 +1,12 @@
 body {
-  background-color: #d56600;
   font-family: "Poppins";
+  background-color: #ff8d15;
+}
+
+.temp-main {
+  background: url("/img/bg1.jpg") no-repeat;
+  background-size: cover;
+  background-size: 1910px 880px;
 }
 
 .social-icons img {
@@ -11,10 +17,14 @@ body {
 
 .card {
   transition: all 0.3s;
+  box-shadow: -10px 15px rgba(0, 0, 0, 0.281);
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .card:hover {
   transform: scale(1.05);
+  box-shadow: 0 0px 100px rgba(0, 0, 0, 0.2);
 }
 
 .icon {
@@ -22,5 +32,5 @@ body {
 }
 
 .icon:hover {
-  transform: scale(1.50);
+  transform: scale(1.5);
 }
