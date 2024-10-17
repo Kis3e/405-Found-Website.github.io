@@ -55,3 +55,20 @@ body {
 .icon:hover {
   transform: scale(1.5);
 }
+
+.title {
+  margin-bottom: 0;
+}
+.title-developer {
+  margin-top: 0;
+}
+
+#nameTag {
+  color: #ff8d15;
+}
+
+.progress-bar {
+  background-color: #f77e22;
+  color: #000;
+  font-weight: bold;
+}
