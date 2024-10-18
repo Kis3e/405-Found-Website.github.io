@@ -1,9 +1,9 @@
 body {
   background-image: linear-gradient(
     to left bottom,
-    #7c746d,
-    #937860,
-    #aa7b52,
+    #000000,
+    #33181d,
+    #62282c,
     #c07e45,
     #d77f37,
     #d07035,
@@ -142,6 +142,7 @@ html {
 }
 
 #skill,
+#about,
 #project,
 #certificate,
 #certificate-img,
