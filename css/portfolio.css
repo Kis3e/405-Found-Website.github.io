@@ -3,14 +3,18 @@ body {
   background-color: #ff8d15;
 }
 
-.navbar-toggler {
-  border-color: white; /* White border for toggle button */
-}
-
 body {
   background-color: #f77e22;
   font-family: "Poppins", sans-serif;
   color: black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar-toggler {
+  border-color: white; /* White border for toggle button */
 }
 
 .profile-pic {
@@ -26,6 +30,12 @@ body {
   height: 40px;
   filter: brightness(0);
 }
+
+.skill-icon {
+  width: 70px;
+  height: 70px;
+}
+
 .btn-hire {
   background-color: #fd6f00;
   color: #fff;
@@ -40,12 +50,30 @@ body {
   border: 2px solid #000;
 }
 
+.btn-contact {
+  background-color: #fd6f00;
+  color: #fff;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+  border: 2px solid #000;
+}
+
+.btn-contact:hover {
+  background-color: #d9d9d980;
+  color: #000;
+  border: 2px solid #000;
+}
+
 #bg-all {
   background-color: #d9d9d9b6;
 }
 
 .name {
   color: #fd6f00;
+}
+
+#toggler-button {
+  background-color: #fc6f03fc;
 }
 
 .icon {
@@ -72,3 +100,33 @@ body {
   color: #000;
   font-weight: bold;
 }
+
+.c-item {
+  height: 100%;
+}
+
+.c-img {
+  height: 100%;
+  filter: brightness(1);
+}
+
+.project {
+  transition: all 0.3s;
+  box-shadow: -10px 15px rgba(0, 0, 0, 0.281);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0px 100px rgba(0, 0, 0, 0.2);
+}
+
+/* .nav-link {
+  transition: all 3s;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.nav-link:hover {
+  transform: scale(1.3);
+} */
+
