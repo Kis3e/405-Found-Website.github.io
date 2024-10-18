@@ -1,10 +1,19 @@
 body {
-  font-family: "Poppins";
-  background-color: #ff8d15;
-}
-
-body {
-  background-color: #f77e22;
+  background-image: linear-gradient(
+    to left bottom,
+    #7c746d,
+    #937860,
+    #aa7b52,
+    #c07e45,
+    #d77f37,
+    #d07035,
+    #c96234,
+    #c15333,
+    #933b33,
+    #62282c,
+    #33181d,
+    #000000
+  );
   font-family: "Poppins", sans-serif;
   color: black;
 }
@@ -65,7 +74,7 @@ html {
 }
 
 #bg-all {
-  background-color: #d9d9d9b6;
+  background-color: #d9d9d950;
 }
 
 .name {
@@ -121,20 +130,23 @@ html {
   box-shadow: 0 0px 100px rgba(0, 0, 0, 0.2);
 }
 
-@keyframes appear{
-  from{
+@keyframes appear {
+  from {
     opacity: 0;
     scale: 0.3;
   }
-  to{
+  to {
     opacity: 1;
     scale: 1;
   }
 }
 
-#about, #about, #skill, #project, #certificate, #certificate-img, #contact {
+#skill,
+#project,
+#certificate,
+#certificate-img,
+#contact {
   animation: appear linear;
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
 }
-
