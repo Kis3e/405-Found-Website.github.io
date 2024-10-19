@@ -1,0 +1,83 @@
+body {
+    background-color: #DA6A00;
+}
+
+.container-fluid {
+    background-color: #DA6A00;
+}
+.btn {
+    color: #FEFEFE;
+}
+
+
+.navbar  navbar-expand-lg bg-body-tertiary {
+    position: fixed;
+}
+.contents {
+    margin-top: 200px;
+    align-items: center;
+    margin-left: 80px;
+    height: 200px;
+    width: 500px;
+}
+.contents h2{
+    font-family: 'Georgia', serif;
+    font-size: 60px;
+    color: black;
+}
+.contents h3 {
+    font-family: 'Georgia', serif;
+    font-size: 50px;
+    color: #FEFEFE;
+    
+}
+main{
+    height: 500px;
+    display: flex;
+    align-items: space-around;
+    
+}
+.resposive-image {
+    max-width: 100%;
+    height:auto;
+    display: flex;
+    padding-top: 200px;
+    margin-top: 200px;
+}
+.image-container {
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+
+.image-container:hover img {
+    transform: scale(1.1);
+}
+.break {
+    margin-top: 80px;
+    border: none;   
+    height: 10px;    
+    color: #FEFEFE;
+    background-color: white;
+}
+.skills {
+    width: 500px;
+    height:500px ;
+}
+
+.progress {
+    inline-size: none;git 
+    margin-left: 200px;
+}
+.devicon--html5 {
+    display: inline-block;
+    margin-left: 165px;
+    width: 2.5em;
+    height: 2.5em;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Cpath fill='%23e44d26' d='M19.037 113.876L9.032 1.661h109.936l-10.016 112.198l-45.019 12.48z'/%3E%3Cpath fill='%23f16529' d='m64 116.8l36.378-10.086l8.559-95.878H64z'/%3E%3Cpath fill='%23ebebeb' d='M64 52.455H45.788L44.53 38.361H64V24.599H29.489l.33 3.692l3.382 37.927H64zm0 35.743l-.061.017l-15.327-4.14l-.979-10.975H33.816l1.928 21.609l28.193 7.826l.063-.017z'/%3E%3Cpath fill='%23fff' d='M63.952 52.455v13.763h16.947l-1.597 17.849l-15.35 4.143v14.319l28.215-7.82l.207-2.325l3.234-36.233l.335-3.696h-3.708zm0-27.856v13.762h33.244l.276-3.092l.628-6.978l.329-3.692z'/%3E%3C/svg%3E");
+  }
