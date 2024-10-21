@@ -17,7 +17,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1030; /* Make sure it stays above other content */
+  z-index: 1030; 
 }
 
 
@@ -71,7 +71,7 @@ body {
 .home-section .title {
   font-size: 1.5rem;
   color: #6E655A;
-    transition: opacity 0.5s ease-in-out; /* Add transition */
+    transition: opacity 0.5s ease-in-out; 
 }
 
 .home-section .description {
