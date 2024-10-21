@@ -4,7 +4,7 @@ body {
   background-color: #F4A735; 
   color: #1B1B1B;
   font-family: 'Arial', sans-serif;
-  padding-top: 70px; /* Adjusted for fixed navbar */
+  padding-top: 70px; 
 }
 
 .custom-navbar {
