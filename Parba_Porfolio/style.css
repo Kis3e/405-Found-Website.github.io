@@ -37,6 +37,14 @@ header{
     color: #fff; 
 }
 
+#projects.proj h2 {
+    color: #fff !important; 
+}
+
+.content #projects{
+    color: black; 
+}
+
 h2{
     font-size: 60px;
     font-family: "Londrina Sketch", sans-serif;
@@ -85,12 +93,16 @@ h2{
     overflow: hidden; 
     position: relative;
     margin-bottom: 30px;
+   
 }
-.proj img{
+
+.proj img {
     object-fit: cover;
-    width: 100%;
-    height: 100%;
+    width: 40%; 
+    height: auto; 
+
 }
+  
 
 .cv{
     background-color: #333!important;
