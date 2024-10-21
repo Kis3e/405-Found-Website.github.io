@@ -151,3 +151,11 @@ html {
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
 }
+
+.navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f77e22;
+}
