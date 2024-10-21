@@ -45,6 +45,14 @@ html {
   height: 70px;
 }
 
+.skill-icon {
+  transition: all 0.3s;
+}
+
+.skill-icon:hover {
+  transform: scale(1.5);
+}
+
 .btn-hire {
   background-color: #fd6f00;
   color: #fff;
