@@ -252,10 +252,9 @@ body {
   margin-bottom: 8px;
 }
 
+/*work section */
 
 
-
-/* Work Section */
 .works-section {
   background-color: #F4A735;
   font-weight: bold;
@@ -263,7 +262,7 @@ body {
   padding: 40px 20px;
 }
 
-/* Work Section Title */
+
 .works-section .section-title {
   font-size: 2rem;
   font-weight: bold;
@@ -271,7 +270,7 @@ body {
   text-transform: uppercase;
 }
 
-/* Projects list - Displayed vertically */
+
 .projects-list {
   display: flex;
   flex-direction: column;
@@ -283,7 +282,7 @@ body {
   margin-bottom: 10px;
 }
 
-/* Work Box - For both Projects and Certificates */
+
 .work-box {
   transition: transform 0.3s ease;
   background-color: #D9CA8D; 
@@ -297,13 +296,13 @@ body {
   transform: scale(1.05);
 }
 
-/* Certificates Section */
+
 .certificate-list {
   display: flex;
   flex-direction: column;
 }
 
-/* Certificate Images */
+
 .cert-img {
   max-width: 100%;
   border: 2px solid #D9CA8D;
@@ -315,7 +314,7 @@ body {
   transform: scale(1.05);
 }
 
-/* Carousel Controls for sliding certificates */
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   background-color: #1B1B1B;
@@ -331,7 +330,7 @@ body {
   background-color: #D9CA8D;
 }
 
-/* Sub-Section Titles */
+
 .sub-section-title {
   font-size: 1.5rem;
   font-weight: bold;
