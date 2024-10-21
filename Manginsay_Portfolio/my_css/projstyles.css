@@ -10,17 +10,9 @@ body {
     background-color: #3e1e00be;
 }
 
-.containerr {
-    background-color: #E36E00;
-}
-
 .project {
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-.project-images img {
-    border-radius: 20px; /* Retaining rounded corners */
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .text {
@@ -31,4 +23,11 @@ body {
 .text p {
     text-align: justify;
     font-family: 'Montserrat';
+}
+
+@media (max-width: 767px) {
+    .text {
+        text-align: center;
+        padding: 10px;
+    }
 }

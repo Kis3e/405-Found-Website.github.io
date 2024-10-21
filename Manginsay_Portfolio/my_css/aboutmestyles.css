@@ -10,10 +10,12 @@ body {
     background-color: #3e1e00be;
 }
 
-.containerr {
-    background-color: #E36E00;
+.text {
+    line-height: 1.5;
 }
 
-.education {
-    line-height: 1.5;
+@media (max-width: 767px) {
+    .education, .skills, .work-exp {
+        text-align: center;
+    }
 }
