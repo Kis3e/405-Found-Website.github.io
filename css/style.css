@@ -2,7 +2,7 @@ body {
   font-family: "Poppins";
   background-image: linear-gradient(
     to left bottom,
-    #000000,
+    #222222,
     #33181d,
     #62282c,
     #c07e45,
@@ -65,8 +65,7 @@ body {
 
 #team-section,
 #team-photo-description,
-#portfolio-section,
-#portfolio-profile {
+#portfolio-section {
   animation: appear linear;
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
@@ -100,10 +99,3 @@ body {
   border: 2px solid #000;
 }
 
-.card-img-top {
-  height: 300px; /* Set a fixed height for images */
-  object-fit: cover; /* Ensure the image covers the area without distortion */
-}
-.small-description {
-  font-size: 0.8rem; /* Adjust font size for smaller devices */
-}
