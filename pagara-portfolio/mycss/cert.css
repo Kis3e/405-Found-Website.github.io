@@ -35,32 +35,32 @@ body {
 }
 
 main {
-    height: auto; /* Allow height to adjust based on content */
+    height: auto; 
     display: flex;
-    flex-direction: column; /* Stack items vertically on small screens */
-    align-items: center; /* Center align items */
+    flex-direction: column; 
+    align-items: center; 
 }
 
 main img {
-    width: 90%; /* Use a percentage for width */
-    height: auto; /* Maintain aspect ratio */
-    margin-top: 10vh; /* Use viewport height for margin */
+    width: 90%; 
+    height: auto; 
+    margin-top: 10vh; 
 }
 
-/* Media Queries for larger screens */
+
 @media (min-width: 768px) {
     .contents {
-        margin-left: 10%; /* More margin on larger screens */
-        margin-top: 200px; /* Original margin for larger screens */
+        margin-left: 10%; 
+        margin-top: 200px; 
     }
 
     main {
-        flex-direction: row; /* Side by side on larger screens */
-        align-items: center; /* Align items in the center */
+        flex-direction: row; 
+        align-items: center; 
     }
 
     main img {
-        width: 500px; /* Fixed width for larger screens */
+        width: 500px; 
     }
 }
 .image-container {
@@ -96,6 +96,23 @@ main img {
    width: 800px;
     height: 470px;
 }
+html {
+    scroll-behavior: smooth; 
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.contents {
+    animation: fadeIn 1s ease-in; /
+}
+
+
 .pajamas--twitter {
     display: inline-block;
     margin-top: 20px;

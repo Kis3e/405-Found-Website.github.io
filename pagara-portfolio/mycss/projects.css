@@ -120,8 +120,20 @@ main img {
 }
 
 .content {
-    display: flex; /* Use flexbox to align items */
+    display: flex; 
     align-items: flex-start; 
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.contents {
+    animation: fadeIn 1s ease-in; 
 }
 
 .break2 {

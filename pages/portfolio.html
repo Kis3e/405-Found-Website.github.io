@@ -103,7 +103,7 @@
             <button
               class="btn btn-hire mt-3 px-5"
               data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
+              data-bs-target="#btn-hire"
             >
               Contact Me
             </button>
@@ -112,7 +112,7 @@
           <!-- Modal -->
           <div
             class="modal fade"
-            id="exampleModal"
+            id="btn-hire"
             tabindex="-1"
             aria-labelledby="exampleModalLabel"
             aria-hidden="true"
@@ -223,7 +223,11 @@
       <div class="container text-center text-lg-start">
         <div class="row g-4 align-items-center">
           <div class="col-lg-3 text-center d-none d-lg-flex">
-            <img src="/img/right-icon.png" class="img-fluid h-auto" alt="" />
+            <img
+              src="/img/right-icon.png"
+              class="img-fluid h-auto"
+              alt="Icon"
+            />
           </div>
           <div
             id="bg-all"
@@ -236,45 +240,65 @@
             <h1 class="display-4 fw-bold text-center text-lg-start">
               About Me
             </h1>
-            <p class="fs-4">
-              I’m a web developer passionate about building functional and
-              visually appealing websites. With a background in Information
-              Systems, I enjoy creating digital solutions and continuously
-              learning to keep up with the latest trends in web development.
+            <p class="fs-5">
+              I am a passionate web developer with a strong background in
+              <span class="fw-bold">Information Systems</span>, driven by the
+              desire to create modern, functional, and visually engaging
+              websites. I thrive on solving challenges, building efficient
+              solutions, and continuously evolving my skills to stay updated
+              with the latest technologies.
             </p>
-            <div class="row gy-3" style="word-break: break-word">
-              <div class="col-12 col-md-6 text-center text-md-start">
-                <p class="lead fw-medium fs-4">
-                  Birthday:
-                  <span class="name fs-3 fw-bolder">19 July 2003</span>
+            <p class="fs-5">
+              Whether you need a responsive website, a dynamic web application,
+              or a creative freelance project, I am here to help you bring your
+              ideas to life.
+            </p>
+
+            <div class="row gy-4 mt-4">
+              <!-- Left Column -->
+              <div class="col-md-6">
+                <p class="lead fw-medium fs-5">
+                  <strong>Birthday:</strong>
+                  <span class="fw-normal">19 July 2003</span>
                 </p>
-                <p class="lead fw-medium fs-4">
-                  Website:
-                  <span class="name fs-3 fw-bolder">www.example.com</span>
+                <p class="lead fw-medium fs-5">
+                  <strong>Website:</strong>
+                  <a
+                    href="https://www.example.com"
+                    target="_blank"
+                    class="fw-normal"
+                    >www.405found.com</a
+                  >
                 </p>
-                <p class="lead fw-medium fs-4">
-                  Phone: <span class="name fs-3 fw-bolder">+639561352993 </span>
+                <p class="lead fw-medium fs-5">
+                  <strong>Phone:</strong>
+                  <span class="fw-normal">+63 956 135 2993</span>
                 </p>
-                <p class="lead fw-medium fs-4">
-                  City: <span class="name fs-3 fw-bolder">Butuan City</span>
+                <p class="lead fw-medium fs-5">
+                  <strong>City:</strong>
+                  <span class="fw-normal">Butuan City</span>
                 </p>
               </div>
-              <div class="col-12 col-md-6 text-center text-md-start">
-                <p class="lead fw-medium fs-4">
-                  Age: <span class="name fs-3 fw-bolder">21</span>
+
+              <!-- Right Column -->
+              <div class="col-md-6">
+                <p class="lead fw-medium fs-5">
+                  <strong>Age:</strong>
+                  <span class="fw-normal">21</span>
                 </p>
-                <p class="lead fw-medium fs-4">
-                  Course:
-                  <span class="name fs-3 fw-bolder">Information Systems</span>
+                <p class="lead fw-medium fs-5">
+                  <strong>Course:</strong>
+                  <span class="fw-normal">Information Systems</span>
                 </p>
-                <p class="lead fw-medium fs-4">
-                  Email:
-                  <span class="name fs-3 fw-bolder"
-                    >vicrylkez.lumanao@gmail.com
-                  </span>
+                <p class="lead fw-medium fs-5 text-break">
+                  <strong>Email:</strong>
+                  <a href="mailto:vicrylkez.lumanao@gmail.com" class="fw-normal"
+                    >vicrylkez.lumanao@gmail.com</a
+                  >
                 </p>
-                <p class="lead fw-medium fs-4">
-                  Freelance: <span class="name fs-3 fw-bolder"> Available</span>
+                <p class="lead fw-medium fs-5">
+                  <strong>Freelance:</strong>
+                  <span class="fw-normal">Available</span>
                 </p>
               </div>
             </div>
@@ -745,8 +769,13 @@
                     />
                   </div>
                   <div class="col-auto py-1">
-                    <button type="button" class="btn btn-contact">
-                      Contact Me
+                    <button
+                      type="button"
+                      class="btn btn-contact"
+                      data-bs-toggle="modal"
+                      data-bs-target="#btn-contact"
+                    >
+                      Contact Us
                     </button>
                   </div>
                 </div>
@@ -757,6 +786,66 @@
       </div>
     </div>
     <!-- Contact End -->
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="btn-contact"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">
+              CONTACT US
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p class="mb-3">
+              We are available for freelance projects and collaborations. Feel
+              free to reach out via:
+            </p>
+            <ul class="list-unstyled">
+              <li>
+                <strong>Email:</strong>
+                <a href="404found@gmail.com">404found@gmail.com</a>
+              </li>
+              <li><strong>Phone:</strong> +63 956 135 2992</li>
+              <li>
+                <strong>Github:</strong>
+                <a href="https://github.com/Kis3e" target="_blank"
+                  >github.com/405found</a
+                >
+              </li>
+              <li>
+                <strong>Facebook:</strong>
+                <a href="https://www.facebook.com/iamvicrylk" target="_blank"
+                  >www.facebook.com/405found</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal End -->
 
     <!-- Footer -->
     <div class="container d-flex justify-content-center">
