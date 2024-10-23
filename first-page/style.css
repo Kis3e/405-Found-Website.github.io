@@ -1,23 +1,13 @@
 body {
   font-family: "Poppins";
-  background-image: linear-gradient(
-    to left bottom,
-    #7c746d,
-    #937860,
-    #aa7b52,
-    #c07e45,
-    #d77f37,
-    #d07035,
-    #c96234,
-    #c15333,
-    #933b33,
-    #62282c,
-    #33181d,
-    #000000
-  );
+  background-image: url("/img/bg1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.btn-learn-more{
+.btn-learn-more {
   background-color: #d77f37;
 }
 

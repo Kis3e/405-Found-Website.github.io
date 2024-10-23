@@ -17,12 +17,6 @@ body {
   );
 }
 
-.temp-main {
-  background: url("/img/bg1.jpg") no-repeat;
-  background-size: cover;
-  background-size: 1910px 880px;
-}
-
 .social-icons img {
   width: 60px;
   height: 80px;

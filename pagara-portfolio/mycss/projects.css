@@ -1,5 +1,9 @@
-body {
-    background-color: #DA6A00;
+body, .container-fluid {
+    background-image: url('/pagara-portfolio/myimg/bg2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
 }
 
 .container-fluid {
@@ -92,7 +96,7 @@ main img {
     color: #FEFEFE;
     background-color: white;
 }
-.
+
 .carousel-item {
     height: 600px;
     width: 100%;

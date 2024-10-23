@@ -44,6 +44,15 @@ nav a.active {
   font-weight: bold;
 }
 
+nav a.active:hover {
+  background-color: burlywood;
+  color: black;
+  padding: 17px 18px;
+  border-radius: 20px;
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
 /*home*/
 .home {
   text-align: left;
@@ -162,7 +171,6 @@ nav a.active {
 .contact-item-github {
   margin: 50px 0;
   display: flex;
-  font-display: ;
   justify-content: left;
   flex-direction: row;
   margin-left: -90px;
@@ -206,6 +214,3 @@ nav a.active {
   top: -400px;
   left: 930px;
 }
-
-
-

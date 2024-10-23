@@ -1,6 +1,11 @@
-body {
-    background-color: #DA6A00;
+body, .container-fluid {
+    background-image: url('/pagara-portfolio/myimg/bg2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
 }
+
 
 .container-fluid {
     background-color: #DA6A00;
